@@ -1,0 +1,42 @@
+body {
+  background-color: yellow;
+  font-family: sans-serif;
+  color: white;
+}
+
+.container {
+    margin-top: 150px;
+}
+
+.tengah {
+  width: max-content;
+  margin: auto;
+}
+
+.dalam {
+  background-color: black;
+  padding: 30px;
+  border-radius: 5pt;
+}
+
+.kotak {
+}
+
+.kotak * {
+    margin-bottom: 10px;
+}
+.kotak a {
+  text-decoration: none;
+  color: white;
+  float: right;
+  margin-bottom: 10px;
+  font-size: 8pt;
+}
+
+.kotak h1{
+    font-size: 18pt;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
