@@ -1,2 +1,2 @@
 <?php
-echo "Halo, selamat datang di www.malasngoding.com";
+echo "Halo, selamat datang di belajar PHP";
