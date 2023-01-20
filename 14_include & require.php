@@ -3,4 +3,4 @@
 // include_once('tes.php');
 include('tes.php');
 require('tes.php');
-echo "Belajar Include() dan Require() di www.malasngoding.com";
+wecho "Belajar Include() dan Require() di www.malasngoding.com";
