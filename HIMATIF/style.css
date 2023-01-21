@@ -1,0 +1,55 @@
+body {
+  background-color: red;
+  font-family: sans-serif;
+}
+
+.halaman {
+  width: 90%;
+  margin: auto;
+}
+
+header {
+  margin-top: 50px;
+  text-align: center;
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+.navbar {
+  background-color: white;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.navbar ul li {
+  float: left;
+  list-style: none;
+  overflow: block;
+  padding-left: 20px;
+}
+
+.navbar ul li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  text-shadow: normal;
+  padding-bottom: 15px;
+  font-size: 13px;
+}
+
+.maaf {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  width: 95%;
+  margin: auto;
+}
+
+.content {
+  background-color: white;
+  display: block;
+  overflow: hidden;
+  border-radius: 10px;
+}
