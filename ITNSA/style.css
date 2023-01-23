@@ -1,0 +1,35 @@
+img{
+    width: 100px;
+    height: 100px;
+}
+
+body{
+    background-color: yellow;
+    text-align: center;
+}
+
+.container{
+    background-color: black;
+    width: max-content;
+    margin: auto;
+    color: white;
+    margin-top: 100px ;
+    padding: 40px;
+    padding-bottom: 70px;
+    border-radius: 20px;
+} 
+table tr{
+    height: 40px;
+}
+.container h3{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.logo{
+    position: absolute;
+    width: 99%;
+    margin-top: -50px;
+}
+.masuk{
+    padding-top: 30px;
+}
