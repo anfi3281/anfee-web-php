@@ -28,11 +28,11 @@
         </tr>
         <tr>
           <td style="text-align:left">Username</td>
-          <td><input type="text" name="username" /></td>
+          <td><input type="text" name="username" value=""/></td>
         </tr>
         <tr>
           <td style="text-align:left">Password</td>
-          <td><input type="password" name="password" /></td>
+          <td><input type="password" name="password" value=""/></td>
         </tr>
         <tr>
           <td style="text-align:left">Capthca</td>
@@ -40,7 +40,7 @@
         </tr>
         <tr>
           <td style="text-align:left; width:100px;">Isi Captcha</td>
-          <td><input type="text" name="username" /></td>
+          <td><input type="text" name="username"  /></td>
         </tr>
       </table>
       <div class="masuk">
