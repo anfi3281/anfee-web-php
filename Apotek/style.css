@@ -1,18 +1,25 @@
 body{
-  background-color: yellow;
+  background-color: rgb(255, 0, 0);
   text-align: center;
 }
 .container{
   margin: auto;
-  width: max-content;
+  width: 900px;
   padding: 20px;
   background-color: white;
   border-radius: 20px;
-  margin-top: 100px;
+  margin-top: 50px;
+  height: 500px;
+}
+
+.kotak{
+  height: 280px;
+  width: max-content;
+  margin: auto;
 }
 
 h1{
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .submit{
@@ -38,7 +45,11 @@ a{
   transition: 0.3s ease;
 }
 
-a:hover{
+.ahapus:hover{
+  color: red;
+  font-size: 11px;
+}
+.aubah:hover{
   color: blue;
   font-size: 11px;
 }
