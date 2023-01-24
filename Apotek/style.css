@@ -1,0 +1,44 @@
+body{
+  background-color: yellow;
+  text-align: center;
+}
+.container{
+  margin: auto;
+  width: max-content;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 100px;
+}
+
+h1{
+  padding-bottom: 40px;
+}
+
+.submit{
+  margin-top: 40px;
+  border: 0;
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: rgb(104, 104, 255);
+  color: white;
+  transition: 0.3s;
+}
+
+.submit:hover{
+  cursor: pointer;
+  background-color: blue;
+  transform: scale(1.1,1.1);
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 10px;
+  transition: 0.3s ease;
+}
+
+a:hover{
+  color: blue;
+  font-size: 11px;
+}
