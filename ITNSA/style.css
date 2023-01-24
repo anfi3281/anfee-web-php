@@ -58,3 +58,8 @@ table{
     font-size: 7.5pt;
 }
 
+
+table * * img{
+    width: 151px;
+    height: 40px;
+}

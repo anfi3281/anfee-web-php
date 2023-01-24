@@ -13,6 +13,7 @@
 <body>
   <?php
   require("koneksi.php");
+
   ?>
   <div class="logo">
     <img src="logo itnsa.png" alt="" />
@@ -28,19 +29,19 @@
         </tr>
         <tr>
           <td style="text-align:left">Username</td>
-          <td><input type="text" name="username" value=""/></td>
+          <td><input type="text" name="username" value="" /></td>
         </tr>
         <tr>
           <td style="text-align:left">Password</td>
-          <td><input type="password" name="password" value=""/></td>
+          <td><input type="password" name="password" value="" /></td>
         </tr>
         <tr>
           <td style="text-align:left">Capthca</td>
-          <td><img src="captcha.php" alt="gambar" name="captcha" /></td>
+          <td><img src="captcha.php" alt="gambar" /></td>
         </tr>
         <tr>
           <td style="text-align:left; width:100px;">Isi Captcha</td>
-          <td><input type="text" name="username"  /></td>
+          <td><input type="text" name="captcha" /></td>
         </tr>
       </table>
       <div class="masuk">
