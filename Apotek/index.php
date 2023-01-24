@@ -10,9 +10,9 @@
   <body>
     <div class="container">
       <h1>Daftar Obat</h1>
-      <h3>Tabel Obat</h3>
+      <h3>Input Obat</h3>
       <?php
-      require("tampil.php");
+      require("input.php");
       ?>
     </div>
   </body>
