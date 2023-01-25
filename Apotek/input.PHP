@@ -17,15 +17,27 @@
     }
 
     .kembali {
-        background-color: red;
+        background-color: rgb(255, 90, 90);
         color: white;
         font-size: 11px;
+        transition: 0.3s;
+    }
+
+    .kembali:hover {
+        background-color: red;
+        cursor: pointer;
     }
 
     .input {
-        background-color: blue;
+        background-color: rgb(93, 93, 255);
         color: white;
         font-size: 11px;
+        transition: 0.3s;
+    }
+
+    .input:hover {
+        background-color: blue;
+        cursor: pointer;
     }
 </style>
 <form action="input.php" method="post">

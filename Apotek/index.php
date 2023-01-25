@@ -9,10 +9,10 @@
   </head>
   <body>
     <div class="container">
-      <h1>Daftar Obat</h1>
-      <h3>Input Obat</h3>
+      <h1>DAFTAR OBAT</h1>
+      <h2>Ubah Obat</h2>
       <?php
-      require("input.php");
+      require("ubah.php");
       ?>
     </div>
   </body>
