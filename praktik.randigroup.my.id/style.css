@@ -1,0 +1,83 @@
+body {
+  background-color: rgb(255, 0, 0);
+  text-align: center;
+  font-family: sans-serif;
+}
+.container {
+  margin: auto;
+  width: 1200px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 50px;
+  height: 500px;
+}
+
+.kotakan {
+  width: max-content;
+  margin: auto;
+  display: flex;
+}
+
+.isi {
+  margin-left: 25px;
+}
+
+.daftar table{
+  font-size: 11px;
+}
+
+
+.kotak {
+  height: 280px;
+  width: 850px;
+  margin: auto;
+  text-align: center;
+  margin-top: 23px;
+}
+
+h1 {
+  margin-bottom: -40px;
+  color: white;
+}
+
+.submit {
+  border: 0;
+  width: 80px;
+  margin-top: 30px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: rgb(104, 104, 255);
+  color: white;
+}
+
+.submit:hover {
+  cursor: pointer;
+  background-color: blue;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 10px;
+  transition: 0.3s ease;
+}
+
+.ahapus{
+  color:red;
+}
+
+.aubah{
+  color: blue;
+}
+
+.ahapus:hover{
+  font-size: 11px;
+}
+
+.kotak table tr td{
+  text-align: center;
+  width: 150px;
+}
+.aubah:hover {
+  font-size: 11px;
+}
