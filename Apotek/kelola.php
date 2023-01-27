@@ -139,7 +139,7 @@ if (isset($_GET['hapus'])) {
     </table>
     <table align="center">
         <tr>
-            <td><input type="submit" class="button ubah" value="UBAH" name="ubah"></td>
+            <td><input type="submit" class="button ubah" value="UPDATE" name="ubah"></td>
             <td style="width: 10px;"></td>
             <td><input type="submit" class="submit" value="INPUT" name="input" /></td>
         </tr>
