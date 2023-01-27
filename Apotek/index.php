@@ -13,8 +13,6 @@
   <?php
   require("koneksi.php");
   session_start();
-  $sessdir = dirname(dirname(__FILE__)) . '/session_dir';
-  ini_set('session.session_dir', $sessdir);
   $_SESSION['a'] = "";
   $_SESSION['b'] = "";
   $_SESSION['c'] = "";
@@ -22,6 +20,20 @@
   $_SESSION['e'] = "";
   $_SESSION['f'] = "";
   $_SESSION['g'] = "";
+  if (isset($_GET['ubah'])) {
+    $query = "TRUNCATE id_berjalan";
+    mysqli_query($host, $query);
+    $_SESSION['a'] = $_GET['a'];
+    $idberjalan = $_GET['a'];
+    $query = "INSERT INTO `id_berjalan` (`id`) VALUES ('$idberjalan');";
+    mysqli_query($host, $query);
+    $_SESSION['b'] = $_GET['b'];
+    $_SESSION['c'] = $_GET['c'];
+    $_SESSION['d'] = $_GET['d'];
+    $_SESSION['e'] = $_GET['e'];
+    $_SESSION['f'] = $_GET['f'];
+    $_SESSION['g'] = $_GET['g'];
+  }
   ?>
   <h1>DAFTAR OBAT</h1>
   <div class="container">
